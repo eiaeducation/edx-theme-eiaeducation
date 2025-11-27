@@ -1,0 +1,105 @@
+// Default bootstrap theming
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+/*
+EIA Style Guide - https://docs.google.com/document/d/1xiyqX5IvMk-H0eIKkT7reHXR8U98pG19lfIJAjJ9_9I/edit?tab=t.0
+
+Brand Colors:
+--------------------------
+The brand colors are pre-loaded as custom colors in all of the color menus. 
+Simply highlight the item you want and select the correct color.
+Our main colors are Empowering Ember, Sunset Gold, True White, and Foundation Navy. 
+They are bold, high contrast, and functional, but complementary - just like our values.
+
+Empowering Ember
+    CMYK: 0,75,85,0
+    RBG: 255,102,51
+    HEX: #FF6633
+    Pantone: 1645C
+
+Sunset Gold
+    CMYK: 0,23,100,0
+    RBG: 255,197,0
+    HEX: #FFc500
+    Pantone: 7405C
+
+True White
+    CMYK: 0,0,0,0
+    RBG: 255,255,255
+    HEX: #FFFFF
+    Pantone 
+
+Foundation Navy
+    CMYK: 100,83,44,52
+    RBG: 4,35,63
+    HEX: #04233f
+    Pantone: 2768 C
+
+Secondary Colors:
+--------------------------
+Our secondary colors are used sparingly to add depth and variety to our brand and to keep our main colors sharp. 
+Secondary colors should ONLY BE USED to add depth to complex graphics, and ONLY with the white logo.
+
+Fresh Foliage
+    CMYK: 45,0,100,0
+    RBG: 153,202,60
+    HEX: #99CA3C
+
+Grounded Green
+    CMYK: 85,13,100,2
+    RBG: 72,153,5
+    HEX: #059948
+
+Open Sky Blue
+    CMYK: 73,26,5,0
+    RBG: 52,153,204
+    HEX: #3499CC
+
+Deepwater Blue
+    CMYK: 93,58,18,2
+    RBG: 1,102,153
+    HEX: #016699
+
+Enduring Ember
+    CMYK: 0,92,83,0
+    RBG: 239,59,57
+    HEX: #EF3B39
+
+Structural Brick
+    CMYK: 14,94,88,4
+    RBG: 204,51,51
+    HEX: #CC3333
+
+
+
+For remapping font families, the default Bootstrap variables are:
+--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+*/
+
+// Set primary theme color overrides
+$primary: #00BBD6;
+$info: #17A2B8;
+
+// re-map from Blues to Purples
+$m-blue: $primary;
+$m-blue-l1: #00DCFF;
+$m-blue-l2: #00C8E3;
+$m-blue-l3: #00C1E3;
+$m-blue-l4: #00EEF8;
+$m-blue-l5: #00ABCB;
+$m-blue-l6: #00D8FA;
+
+$m-blue-d1: #00A0D6;
+$m-blue-d2: $primary;
+$m-blue-d3: #0091D6;
+$m-blue-d4: #0065D6;
+$m-blue-d5: #00BBD6;
+$m-blue-d6: #009ED6;
+
+
+// Theme fonts
+//$font-family-sans-serif: 'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Arial','sans-serif';
+$font-family-sans-serif: 'Comic Sans', 'Comic Sans MS';
+
+@import 'edx-bootstrap/sass/open-edx/theme';
