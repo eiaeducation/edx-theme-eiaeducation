@@ -69,7 +69,7 @@ from openedx.core.release import RELEASE_LINE
     <meta name="path_prefix" content="${EDX_ROOT_URL}">
     <%block name="header_meta"></%block>
     <% favicon_url = branding_api.get_favicon_url() %>
-    <link rel="icon" type="image/x-icon" href="${favicon_url}"/>
+    <link rel="icon" type="image/x-icon" href="${static.url('images/favicon.png')}"/>
     <%static:css group='style-vendor'/>
     <%static:css group='style-vendor-tinymce-content'/>
     <%static:css group='style-vendor-tinymce-skin'/>
